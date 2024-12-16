@@ -11,7 +11,7 @@
    header {
     background: #333;
     color: #fff;
-    padding: 1rem;
+    padding: 1rem 10%;
    }
    nav ul {
     list-style: none;
@@ -22,6 +22,9 @@
     color: #fff;
     text-decoration: none;
    }
+   nav a:hover {
+    color: #ffd700;
+    }
    nav a.active {
     color: #ffd700;
    }
@@ -39,3 +42,11 @@
     bottom: 0;
     width: 100%;
    }
+   footer p {
+    display: inline;
+    margin-right: 2rem;
+}
+footer p:last-child {
+    display: block;
+    margin-top: 1rem;
+}
