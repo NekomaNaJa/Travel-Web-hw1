@@ -154,3 +154,39 @@ button:hover {
 .image-hover-container:hover .image-hover-text {
     left: 0;
 }
+
+.mainA {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh; 
+    text-align: center;
+    padding: 2rem;
+}
+
+.mainA div {
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+    max-width: 1200px;
+}
+
+.pi {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+
+.t {
+    flex: 1; 
+    background-color: rgba(190, 161, 161, 0.836);
+    padding: 1.5rem;
+    border-radius: 10px;
+    line-height: 1.6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify; 
+}
